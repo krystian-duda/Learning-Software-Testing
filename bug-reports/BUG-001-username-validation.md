@@ -1,11 +1,11 @@
-# Bug Report #001: Missing character validation in Name field
+# Bug Report #001: Missing character validation in Username me field
 
 **Status:** Open  
 **Severity:** Low  
 **Priority:** P3  
 
 ## Description
-The "Name" field during registration accepts an excessively long string containing letters, numbers, and special characters: 'Test!@#$%^&*()_+1234567890Test!@#$%^&*()_+1234567890Test!@#$%^&*()_+1234567890Test!@#$%^&*()_+1234567890' 
+The "Username" field during registration accepts an excessively long string containing letters, numbers, and special characters: 'Test!@#$%^&*()_+1234567890Test!@#$%^&*()_+1234567890Test!@#$%^&*()_+1234567890Test!@#$%^&*()_+1234567890' 
 without any validation.
 The system fails to enforce character type restrictions and a maximum length limit.
 
