@@ -1,4 +1,4 @@
-# Bug Report #001: Missing character validation in Username me field
+# Bug Report #001: Missing character validation in Username field
 
 **Status:** Open  
 **Severity:** Low  
